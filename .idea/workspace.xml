@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fa5e456-c374-43ee-a3cb-1174944b1ed4" name="Changes" comment="début du tp" />
+    <list default="true" id="0fa5e456-c374-43ee-a3cb-1174944b1ed4" name="Changes" comment="début du tp">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "BryanSarrazin"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/BryanSarrazin/tp_tenis.git",
+    "accountId": "fd22fa34-4206-4ef0-9ea4-a8cbe78c99c9"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -58,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728570332456</updated>
       <workItem from="1728570333487" duration="6000" />
-      <workItem from="1728570350686" duration="5039000" />
+      <workItem from="1728570350686" duration="6252000" />
     </task>
     <task id="LOCAL-00001" summary="début du tp">
       <option name="closed" value="true" />
@@ -68,7 +83,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728574842988</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="début du tp">
+      <option name="closed" value="true" />
+      <created>1728998043645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728998043645</updated>
+    </task>
+    <task id="LOCAL-00003" summary="début du tp">
+      <option name="closed" value="true" />
+      <created>1728998351834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728998351834</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

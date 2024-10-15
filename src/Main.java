@@ -3,7 +3,7 @@ import clavier.In;
 public class Main {
     public static void main(String[] args) {
         final  int NC = 1 ,_40 = 2, _30_5 = 3, _30_4 = 4, _30_3 = 5, _30_2 = 6, _30_1 = 7, _30 = 8, _15_5 = 9, _15_4 = 10;
-        int points = 0, classement = 0,nbVictoireMax = 0, nbVictoire = 0;
+        int points = 0, classement = 0,nbVictoireMax = 0, nbVictoire = 0, pointsGagne = 0 , classementAdvers = 0;
         System.out.println(""" 
                 Entre ton classement:
                 ------------------------------------------------------------
@@ -52,6 +52,7 @@ public class Main {
                 nbVictoireMax = 6;
                 break;
         }
+
         System.out.println("Le nombre de points de départ est de : " + points + " points");
         System.out.println("Le nombre de Victoire max est de : " + nbVictoireMax);
         System.out.println();
@@ -68,8 +69,53 @@ public class Main {
                 | 30/2 => 6 | 30/1 => 7| 30 => 8   | 15/5 => 9 | 15/4 => 10|
                 ------------------------------------------------------------""");
                 System.out.print("Entre tes Victoire :");
-                classement = In.readInteger();
+                classementAdvers = In.readInteger();
+                switch (classement) {
+                    case NC:
+                        switch (classementAdvers) {
+                            case NC:
+                                pointsGagne = 50;
+                                points = points + pointsGagne;
+                                break;
+                            case _40:
+                                pointsGagne = 100;
+                                break;
+                            default:
+                                pointsGagne = 150;
+
+                        };
+                        break;
+                    case _40:
+
+                        break;
+                    case _30_5:
+
+                        break;
+                    case _30_4:
+
+                        break;
+                    case _30_3:
+
+                        break;
+                    case _30_2:
+
+                        break;
+                    case _30_1:
+
+                        break;
+                    case _30:
+
+                        break;
+                    case _15_5:
+
+                        break;
+                    case _15_4:
+
+                        break;
+                }
+                System.out.println(pointsGagne + " points");
             }
+
 
         }else {
 
