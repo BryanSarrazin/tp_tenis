@@ -69,8 +69,6 @@ public class Main {
                 ------------------------------------------------------------""");
                 System.out.print("Entre tes Victoire :");
                 classement = In.readInteger();
-
-
             }
 
         }else {
